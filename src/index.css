@@ -10,9 +10,17 @@ html,body{
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: Suisse Medium,sans-serif;
 }
 
-
+.shipping-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  color: #fffef2;
+  height: 5vh;
+}
 /* NAV BAR START */
 .nav-bar{
   display: flex;
