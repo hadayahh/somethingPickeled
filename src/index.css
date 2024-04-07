@@ -1,10 +1,33 @@
+/* GLOBAL STYLES RESET */
+* {
+  box-sizing: border-box;
+}
+
+html,body{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 /* NAV BAR START */
 .nav-bar{
   display: flex;
-  list-style: none;
-  background-color: blue;
-  max-height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(197,186,163);
+  color: rgb(51,51,51);
+  height: 10vh;
+  margin: 0;
 }
+
+.nav-bar *{
+  list-style: none;
+}
+
 
 
 
