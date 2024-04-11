@@ -1,4 +1,5 @@
 /* GLOBAL STYLES RESET */
+
 * {
   box-sizing: border-box;
 }
@@ -13,6 +14,8 @@ html,body{
   font-family: Suisse Medium,sans-serif;
 }
 
+/* GLOBAL STYLES RESET */
+
 .shipping-banner{
   display: flex;
   justify-content: center;
@@ -21,6 +24,7 @@ html,body{
   color: #fffef2;
   height: 5vh;
 }
+
 /* NAV BAR START */
 .nav-bar{
   display: flex;
@@ -40,3 +44,13 @@ html,body{
 
 
 /* NAV BAR END */
+
+/* ABOUT SECTION START */
+.about{
+  height: 85vh;
+  background: rgb(246,245,232);
+}
+
+
+
+/* ABOUT SECTION END */
