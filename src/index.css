@@ -48,16 +48,32 @@ html,body{
 /* ABOUT SECTION START */
 .about{
   height: 85vh;
+  /* background: rgb(246,245,232); */
+  display: flex;
+}
+
+.about-text-container{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border-right: solid 1px;
   background: rgb(246,245,232);
 }
 
 .about-text{
+  padding: 15px;
+}
+
+.about-image{
+  display: flex;
+  align-items: center;
   width: 50%;
   height: 100%;
   display: flex;
-  align-items: center;
-  border-right: solid 1px;
+  padding: 20px;
 }
+
 
 
 
