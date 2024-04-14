@@ -83,6 +83,14 @@ html,body{
   background-color: rgb(37,37,37);
 }
 
+.socials{
+  width: 20%;
+  /* background-color: blue; */
+}
+
+.socials-divider{
+  border-bottom: 1px solid #fffef2;
+}
 .socials-list{
   display: flex;
   flex-direction: column;
@@ -90,6 +98,7 @@ html,body{
 .socials-list li {
   color: #fffef2;
   list-style: none;
+  padding: 5px;
 }
 
 .socials h3{
