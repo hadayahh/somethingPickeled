@@ -1,5 +1,6 @@
 import { Nav } from "./Nav"
 import { About } from "./About"
+import { Footer } from "./Footer"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </div>
       <Nav/>
       <About/>
+      <Footer/>
     </>
   )
 }

@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 html,body{
@@ -73,7 +74,30 @@ html,body{
   padding: 20px;
 }
 
-
-
-
 /* ABOUT SECTION END */
+
+/* FOOTER START*/
+
+.footer{
+  height: 30vh;
+  background-color: rgb(37,37,37);
+}
+
+.socials-list{
+  display: flex;
+  flex-direction: column;
+}
+.socials-list li {
+  color: #fffef2;
+  list-style: none;
+}
+
+.socials h3{
+  color: #fffef2;
+  font-size: 1rem;
+}
+
+
+
+
+/* FOOTER END*/
