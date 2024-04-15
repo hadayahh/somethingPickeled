@@ -3,10 +3,11 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 html,body{
-  margin: 0;
+  /* margin: 0; */
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -49,7 +50,7 @@ html,body{
 /* ABOUT SECTION START */
 .about{
   height: 85vh;
-  /* background: rgb(246,245,232); */
+  
   display: flex;
 }
 
@@ -81,27 +82,31 @@ html,body{
 .footer{
   height: 30vh;
   background-color: rgb(37,37,37);
+  color: white;
 }
 
-.socials{
+.socials{ 
   width: 20%;
-  /* background-color: blue; */
+  padding-top: 20px;
 }
 
-.socials-divider{
+.socials-divider{ 
   border-bottom: 1px solid #fffef2;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 .socials-list{
   display: flex;
   flex-direction: column;
 }
+
 .socials-list li {
   color: #fffef2;
   list-style: none;
-  padding: 5px;
 }
 
-.socials h3{
+.socials h3{ 
   color: #fffef2;
   font-size: 1rem;
 }
