@@ -75,11 +75,18 @@ html,body{
   padding: 20px;
 }
 
+.about-image img{
+  max-width: 100%;
+}
+
 /* ABOUT SECTION END */
 
 /* FOOTER START*/
-
+#andrea{
+  display: none;
+}
 .footer{
+  display: flex;
   height: 30vh;
   background-color: rgb(37,37,37);
   color: white;
