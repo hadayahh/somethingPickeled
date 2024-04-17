@@ -82,14 +82,15 @@ html,body{
 /* ABOUT SECTION END */
 
 /* FOOTER START*/
-#andrea{
-  display: none;
-}
+
 .footer{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   height: 30vh;
   background-color: rgb(37,37,37);
   color: white;
+  gap: 50px;
 }
 
 .socials{ 
@@ -118,6 +119,31 @@ html,body{
   font-size: 1rem;
 }
 
+.contact{ 
+  width: 20%;
+  padding-top: 20px;
+}
+
+.contact-divider{ 
+  border-bottom: 1px solid #fffef2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list li {
+  color: #fffef2;
+  list-style: none;
+}
+
+.contact h3{ 
+  color: #fffef2;
+  font-size: 1rem;
+}
 
 
 
