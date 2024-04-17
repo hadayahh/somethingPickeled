@@ -76,7 +76,8 @@ html,body{
 }
 
 .about-image img{
-  max-width: 100%;
+  max-width: 50%;
+  margin: auto;
 }
 
 /* ABOUT SECTION END */
@@ -96,6 +97,7 @@ html,body{
 .socials{ 
   width: 20%;
   padding-top: 20px;
+  margin-left: 10px;
 }
 
 .socials-divider{ 
