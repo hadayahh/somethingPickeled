@@ -33,7 +33,7 @@ export function Footer(){
                     <li>Phone Number</li>
                 </ul>
             </div>
-            <div className="contact">
+            {/* <div className="contact">
                 <h3>Contact</h3>
                 <div className="contact-divider"></div>
                 <ul className="contact-list">
@@ -48,7 +48,7 @@ export function Footer(){
                     <li>Email</li>
                     <li>Phone Number</li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 }
