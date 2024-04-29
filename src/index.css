@@ -44,6 +44,8 @@ body {
 
 .nav-bar * {
   list-style: none;
+  text-decoration: none;
+  color: rgb(37, 37, 37);
 }
 
 /* NAV BAR END */
