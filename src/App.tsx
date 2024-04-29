@@ -1,15 +1,20 @@
 import { Nav } from "./Nav";
 import { About } from "./About";
 import { Footer } from "./Footer";
+import Shipping from "./Shipping";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="shipping-banner">
-        <div>
-          Enjoy complimentary standard delivery and samples with all orders.
-        </div>
-      </div>
+      {/* <Routes>
+        <Route path="*" element={<App />}></Route>
+        <Route path="/shipping" element={<Shipping />}></Route>
+        <Route path="/nav" element={<Nav />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/footer" element={<Footer />}></Route>
+      </Routes> */}
+      <Shipping />
       <Nav />
       <About />
       <Footer />
