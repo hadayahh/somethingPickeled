@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "price": 5.99,
+    "name": "Classic Dill Pickles",
+    "imageUrl": "https://m.media-amazon.com/images/I/71%2BgZab5zJL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 2,
+    "price": 6.49,
+    "name": "Spicy Garlic Pickles",
+    "imageUrl": "https://m.media-amazon.com/images/I/81MWBBxeK8L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "price": 4.99,
+    "name": "Bread and Butter Pickles",
+    "imageUrl": "https://m.media-amazon.com/images/I/71CuQmJmNyL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 4,
+    "price": 7.99,
+    "name": "Pickled Beets",
+    "imageUrl": "https://m.media-amazon.com/images/I/81-mwxll%2BIL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "price": 5.49,
+    "name": "Pickled Jalapenos",
+    "imageUrl": "https://m.media-amazon.com/images/I/81SQUdLJijL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 6,
+    "price": 8.99,
+    "name": "Pickled Carrots",
+    "imageUrl": "https://m.media-amazon.com/images/I/81c4jD8oTeL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 7,
+    "price": 9.49,
+    "name": "Pickled Okra",
+    "imageUrl": "https://m.media-amazon.com/images/I/71zT4MB%2BlWL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 8,
+    "price": 5.99,
+    "name": "Sweet Gherkins",
+    "imageUrl": "https://m.media-amazon.com/images/I/81gyx%2B6efIL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 9,
+    "price": 6.99,
+    "name": "Pickled Cauliflower",
+    "imageUrl": "https://m.media-amazon.com/images/I/91y7b2bw2nL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 10,
+    "price": 7.49,
+    "name": "Pickled Red Onions",
+    "imageUrl": "https://m.media-amazon.com/images/I/81QKp8dJP6L._AC_SL1500_.jpg"
+  }
+]
