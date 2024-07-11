@@ -1,8 +1,7 @@
-import { Nav } from "./Nav";
-import { About } from "./About";
-import { Footer } from "./Footer";
-import Shipping from "./Shipping";
-import { Routes, Route } from "react-router-dom";
+import { Nav } from "./components/Nav";
+import { About } from "./components/About";
+import { Footer } from "./components/Footer";
+import Shipping from "./components/Shipping";
 
 function App() {
   return (
