@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import "../index.css";
 
-export function Nav() {
+export function Nav({ cart }) {
   return (
     <ul className="nav-bar">
       <Link to="/about">
@@ -16,6 +17,7 @@ export function Nav() {
         <li>Contact</li>
       </Link>
       <Link to="/cart">
+        <span className="cart-count">{cart}</span>
         <li>Cart</li>
       </Link>
     </ul>

@@ -45,6 +45,9 @@ body {
   text-decoration: none;
   color: rgb(37, 37, 37);
 }
+span.cart-count {
+  display: inline-block;
+}
 
 /* NAV BAR END */
 
