@@ -54,7 +54,6 @@ span.cart-count {
 /* ABOUT SECTION START */
 .about {
   height: 85vh;
-
   display: flex;
 }
 
@@ -165,7 +164,9 @@ span.cart-count {
 
 .product-grid {
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  height: 80vh;
+  justify-content: center;
+  grid-template-columns: 20vw 20vw;
   gap: 15px;
   margin-top: 20px;
 }
@@ -173,6 +174,8 @@ span.cart-count {
 .product-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   align-items: center;
   border: 1px solid black;
   border-radius: 8px;

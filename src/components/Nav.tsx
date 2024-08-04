@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import "../index.css";
 
-export function Nav({ cart }) {
+type NavProps = {
+  cart: number;
+};
+
+export function Nav({ cart }: NavProps) {
   return (
     <ul className="nav-bar">
       <Link to="/about">
