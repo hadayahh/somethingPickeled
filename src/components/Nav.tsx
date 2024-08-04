@@ -17,7 +17,7 @@ export function Nav({ cart }) {
         <li>Contact</li>
       </Link>
       <Link to="/cart">
-        <span className="cart-count">{cart}</span>
+        {cart > 0 && <span className="cart-count">{cart}</span>}
         <li>Cart</li>
       </Link>
     </ul>
