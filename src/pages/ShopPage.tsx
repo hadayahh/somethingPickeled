@@ -1,6 +1,7 @@
 import products from "../data/products.json";
 import Shipping from "../components/Shipping";
 import { Nav } from "../components/Nav";
+import "../index.css";
 
 export function ShopPage() {
   type Product = {
@@ -13,13 +14,13 @@ export function ShopPage() {
     <>
       <Shipping />
       <Nav />
-      <ul>
+      <ul className="product-grid">
         {products.map((product: Product) => (
-          <li key={product.id}>
+          <li key={product.id} className="product-item">
             <h2>{product.name}</h2>
             <p>Price: ${product.price}</p>
             <img src={product.imageUrl} alt={product.name} />
-            <h4>Add To Cart</h4>
+            <button>Add To Cart</button>
           </li>
         ))}
       </ul>

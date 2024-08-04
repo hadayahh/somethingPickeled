@@ -157,3 +157,52 @@ body {
     padding: 40px;
   }
 }
+
+/* SHOP PAGE START */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* SHOP PAGE START */
+
+/* ABOUT PAGE START */
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Suisse Medium, sans-serif;
+}
+
+.about-content p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 2em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.about-content {
+  text-align: justify;
+}
